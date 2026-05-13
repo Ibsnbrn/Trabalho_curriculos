@@ -15,14 +15,8 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
-                href="/curriculos/criar"
-                className="inline-flex items-center justify-center rounded-full bg-violet-500 px-5 py-3 text-sm font-semibold text-black transition hover:bg-violet-400"
-              >
-                Criar meu currículo
-              </Link>
-              <Link
                 href="/curriculos"
-                className="inline-flex items-center justify-center rounded-full border border-violet-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/5"
+                className="inline-flex items-center justify-center rounded-full bg-violet-500 px-5 py-3 text-sm font-semibold text-black transition hover:bg-violet-400"
               >
                 Ver currículos prontos
               </Link>

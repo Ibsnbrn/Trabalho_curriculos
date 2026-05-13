@@ -13,9 +13,8 @@ export default function Nav() {
         href="/curriculos/criar"
         className="rounded-full border border-white/20 bg-white/10 px-4 py-2 transition hover:bg-white/20"
       >
-        Criar Currículo
+        Crie seu curriculo
       </Link>
-  
     </nav>
   );
 }
